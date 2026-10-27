@@ -1,16 +1,16 @@
 // clip5_stand.scad - simple stand for JBL Clip 5 Bluetooth speaker
 // Andrew Ho (andrew@zeuscat.com)
 
-r_w = 44;       // left-right radius (width axis)
-r_d = 22;       // front-back radius (depth axis)
-r_v = 35;       // vertical radius — controls how "deep" the socket cup is
+r_w = 40;       // left-right radius (width axis)
+r_d = 24;       // front-back radius (depth axis)
+r_v = 24;       // vertical radius — controls how "deep" the socket cup is
 
-b_w = 100;      // base width
-b_d = 60;       // base depth
+b_w = 90;      // base width
+b_d = 56;       // base depth
 b_r = 12;       // base corner radius
 
 depth = 24;     // how far down the speaker sinks (stand height is depth + t2)
-thickness = 4;  // minimum shell thickness
+thickness = 2;  // minimum shell thickness
 thickness2 = thickness * 2;
 
 cutoff_w = max((r_w + thickness2) * 2, b_w);
